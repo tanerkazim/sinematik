@@ -1,0 +1,165 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ikinciSayfa{
+  position: relative;
+  margin-right: 0px;
+  margin-top: -530px;
+  z-index:1;
+}
+.filmOneri{
+  position:absolute;
+  margin-top: -320px;
+  margin-left: -1150px;
+  z-index:1;
+}
+
+.buton{
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -1350px;
+  background:gainsboro;
+  border:1px solid black; 
+  font-size: 18px;
+  font-weight: bold;
+  width:100px; 
+  height:40px; 
+  opacity: 0.6;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px; 
+  z-index:1;
+}
+.buton2{
+  position: absolute;
+  margin-left: 330px;
+  margin-top: -1350px;
+  background:gainsboro;
+  border:1px solid black; 
+  font-size: 18px;
+  font-weight: bold;
+  width:100px; 
+  height:40px;
+  opacity: 0.6; 
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  z-index:1;
+}
+
+.Container{
+  position:relative;
+	z-index:1;
+  margin-top: 50px;
+}
+
+.connta{
+  position:relative;
+  z-index:1;
+  margin-top: 575px;
+}
+
+.zemin{
+  position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+  height:100%;
+}
+.row{
+  position: relative;
+  height: 250px;
+  margin-top: 90px;
+  align-items: center;
+  opacity: 0.8;
+  background-color: #111111;
+
+}
+
+.logo{
+  background-color: #111111;
+  opacity: 0.8;
+}
+
+.icerik{
+  position:absolute;
+  margin-top: -100px;
+  margin-left: -975px;
+  z-index:1;
+}
+
+.yazi{
+  position:absolute;
+	z-index:1;
+  margin-top:90px;
+  margin-left: 680px;
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 25px;
+}
+.slogan{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  
+}
+
+.filmİsim{
+  position: absolute;
+  z-index: 1;
+  font-size: 30px;
+  color: #CCCCCC;
+  margin-top: -1350px;
+  margin-left: 380px;
+}
+.filmBilgi{
+  position:absolute;
+  color: #CCCCCC;
+  font-size: 18px;
+  z-index: 1;
+  margin-top: -900px;
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+.filmPuani{
+  position: absolute;
+  z-index: 1;
+  font-size: 24px;
+  color: #CCCCCC;
+  margin-top: -1350px;
+  margin-left: 700px;
+}
